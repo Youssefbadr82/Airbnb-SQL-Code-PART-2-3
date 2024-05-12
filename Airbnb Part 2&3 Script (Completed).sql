@@ -29,14 +29,9 @@ CREATE TABLE SystemUser (
 
 --INSERT INTO SystemUser Table
 INSERT INTO SystemUser (SYS_USR_ID, SYS_USR_NAME, SYS_USR_PASSWORD, SYS_USR_SECURITY_QUESTION, SYS_USR_SECURITY_ANSWER) VALUES
-(0, 'Alex', 'ettoo12', 'First pet name?', 'Polo'); --Insert new data
-
+(1, 'John', 'password1', 'Favorite color?', 'Blue');
 INSERT INTO SystemUser (SYS_USR_ID, SYS_USR_NAME, SYS_USR_PASSWORD, SYS_USR_SECURITY_QUESTION, SYS_USR_SECURITY_ANSWER) VALUES
-(1, 'John', 'password1', 'Favorite color?', 'Black'); --Update data
-
-INSERT INTO SystemUser (SYS_USR_ID, SYS_USR_NAME, SYS_USR_PASSWORD, SYS_USR_SECURITY_QUESTION, SYS_USR_SECURITY_ANSWER) VALUES
-(2, 'Ayşe', 'ayse456', 'First teacher''s name?', ''); --Delete data
-
+(2, 'Ayşe', 'ayse456', 'First teacher''s name?', 'Fatma');
 INSERT INTO SystemUser (SYS_USR_ID, SYS_USR_NAME, SYS_USR_PASSWORD, SYS_USR_SECURITY_QUESTION, SYS_USR_SECURITY_ANSWER) VALUES
 (3, 'Mehmet', 'mehmet789', 'Favorite movie?', 'Butterflies');
 INSERT INTO SystemUser (SYS_USR_ID, SYS_USR_NAME, SYS_USR_PASSWORD, SYS_USR_SECURITY_QUESTION, SYS_USR_SECURITY_ANSWER) VALUES
